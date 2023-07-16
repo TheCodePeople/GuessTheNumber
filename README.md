@@ -53,11 +53,11 @@ Correct! Congratulations!
 ## Tips
 
 - Don't forget to use the `parseInt()` function to convert the user's input to a number in the `getUserGuess` function.
-
-- Use a `while` loop to keep prompting the user for a guess until they correctly guess the number.
-
+  
 - Use `alret()` to display messages to the user.
 
 - Break the problem down into small, manageable parts, and write one function at a time.
 
 - Test your functions as you write them to make sure they work correctly.
+
+- (BONUS) Use a `while` loop to keep prompting the user for a guess until they correctly guess the number.
