@@ -23,9 +23,10 @@ function compareNumbers(userGess , actualNumber)
         return true;
     }
 }
+let gen=generateRandomNumber();
 function playGame()
 {
-    let gen=generateRandomNumber();
+    
 if (compareNumbers(getUserGuess() , gen)  == true)
 {
     
