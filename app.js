@@ -1,5 +1,5 @@
 function generateRandomNumber() {
-    return Math.round(Math.random() * 100);
+    return Math.round(Math.random() * 100) + 1;
 }
 
 function getUserGuess() {
@@ -16,7 +16,7 @@ function compareNumbers(actualNumber, userGuess) {
         alert("Too low!");
         return false;
     } else {
-        alert("Correct!");
+        alert("Congratualions! You are correct!");
         return true;
     }
 }
