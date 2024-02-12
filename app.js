@@ -10,17 +10,18 @@ function getUserGuess(){
 }
 
 function compareNumbers(userGuess, actualNum){
-if(userGuess===actualNum){
+    userGuess=parseFloat(userGuess);
+if(userGuess === actualNum){
     console.log("Correct!!");
-    return "true";
+    return true;
 }
 else if (userGuess>actualNum){
     console.log("Too high!!!");
-    return "false";
+    return false;
 }
 else if (userGuess<actualNum){
         console.log("Too low!!!");
-        return "false";
+        return false;
 }
 }
 
